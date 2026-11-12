@@ -1,4 +1,4 @@
-# -Appointment booking system for a university clinic.
+# -Campus Lost and Found App.
 
 ## Team member
 
