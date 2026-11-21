@@ -41,5 +41,5 @@ Group-Project-PSE/
 - Iterative software-development lifecycle
 - Trello for task and sprint management
 - GitHub for version control and project evidence
-- Draw.io and Figma for diagrams and interface design
+- Draw.io , Figma and Visual Studio Code for diagrams and interface design
 - Python, SQLite, HTML, CSS and JavaScript for the prototype
