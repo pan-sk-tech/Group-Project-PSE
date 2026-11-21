@@ -20,21 +20,21 @@ The prototype supports four functional roles without account registration:
 
 ```text
 Group-Project-PSE/
-├── Planning/       Project plan, team roles, Trello evidence, user stories and sprint plan
-├── Requirements/   Functional/non-functional requirements and use cases
-├── Design/         Architecture, workflow diagrams and UI design evidence
-├── Test/           Test cases, results, regression evidence, screenshots and RTM
-├── Final/          Final report, presentation and runnable prototype materials
+├── 01-Planning/       Project plan, team roles, Trello evidence, user stories and sprint plan
+├── 02-Requirements/   Functional/non-functional requirements and use cases
+├── 03-Design/         Architecture, workflow diagrams and UI design evidence
+├── 04-Test/           Test cases, results, regression evidence, screenshots and RTM
+├── 05-Final/          Final report, presentation and runnable prototype materials
 └── README.md        Project overview and repository navigation
 ```
 
 ## Quick links
 
-- [Planning materials](Planning/README.md)
-- [Requirements materials](Requirements/README.md)
-- [Design materials](Design/README.md)
-- [Test record and evidence](Test/README.md)
-- [Final submission materials](Final/README.md)
+- [Planning materials](01-Planning/README.md)
+- [Requirements materials](02-Requirements/README.md)
+- [Design materials](03-Design/README.md)
+- [Test record and evidence](04-Test/README.md)
+- [Final submission materials](05-Final/README.md)
 
 ## Methodology and tools
 

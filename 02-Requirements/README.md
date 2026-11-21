@@ -10,5 +10,5 @@ This folder is reserved for the requirements specification and use-case evidence
 - Detailed use-case descriptions
 - Requirement assumptions and constraints
 
-The requirement identifiers used here should remain consistent with the [test traceability matrix](../Test/RTM.md).
+The requirement identifiers used here should remain consistent with the [test traceability matrix](../04-Test/RTM.md).
 
