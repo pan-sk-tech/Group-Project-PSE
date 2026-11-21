@@ -1,13 +1,13 @@
 # Campus Lost and Found App
 
 ## Team Members
-Ahmed Ayman	388002
-Zhang Fengrui	376811
-BU zihang	373619
-Peng Zihao	392878  Team Leader
-FuJiacheng	376148
+1.Ahmed Ayman	388002
+2.Zhang Fengrui	376811
+3.BU zihang	373619
+4.Peng Zihao	392878  Team Leader
+5.FuJiacheng	376148
 
-A web-based campus lost-and-found prototype for Taylor's University Lakeside Campus.
+## A web-based campus lost-and-found prototype for Taylor's University Lakeside Campus.
 
 The prototype supports four functional roles without account registration:
 
