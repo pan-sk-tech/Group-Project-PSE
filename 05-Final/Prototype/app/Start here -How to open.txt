@@ -1,0 +1,32 @@
+Campus Lost & Found • Taylor’s Lakeside Campus
+
+Open the prototype
+Unzip the entire folder first. This source edition requires Python 3.9 or later. On macOS, double-click Start on Mac.command. On Windows, double-click Start on Windows.cmd. In a terminal opened in the same folder, you can also run python3 launch.py (macOS/Linux) or py -3 launch.py (Windows). The separate Windows 64-bit portable edition includes Python. Open Start.cmd in that edition.
+
+The launcher opens your browser and prints the address. Keep the terminal open while using the app. Press Ctrl+C in that window to stop it. For a quick search, choose Find an item → Try example → Find matches. The four editable diagrams are in diagrams/Campus Lost and Found.drawio.
+
+Try the four workflows
+• Find an item. Enter the item type and a campus stop with a visit time window. Add another stop if needed. Results show matching found items that are still available. Use the collection details to arrange pickup.
+• Report a find. Record the find and its collection point. Once you have physically returned the item, open My found reports → Confirm handover → Yes, mark claimed. Future route searches exclude it.
+• Lost notices. Post the item, where and when it was last seen, and a description. The public Open notices board keeps the notice visible until you mark it resolved. In My notices, you can edit an open notice or resolve it when the search has ended. Resolving a notice and confirming a handover are separate actions.
+• Urgent search. Under Ask for help, enter the item and precise spot. A helper opens Help nearby, chooses their current location and enables Receive nearby requests. Campus venues use a building-and-floor or individual area feed. An urgent request stays active for up to 30 minutes. The requester can close it earlier from the original tab.
+
+Share a demo
+To share one set of records, one person runs the server. On macOS double-click Start on WiFi.command. On Windows run py -3 launch.py --lan, or on Linux run python3 launch.py --lan. From the portable Windows folder, run runtime\python.exe -B app\launch.py --lan. Connect everyone to the same Wi-Fi or hotspot and open the address printed after “On a phone on the same network”. If campus Wi-Fi isolates devices, use a shared hotspot. Keep the host computer awake. A separate installation starts with its own database.
+
+For notices and found reports, the browser keeps a management credential for each record. Return using the same browser profile and exact address, including the port. Keep the original installation folder if you want the local launcher to reuse its default address and records. Clearing site data or ending a private browsing session removes those local controls. No account is required.
+
+中文使用方法
+
+先完整解压。通用源码版需要 Python 3.9 或以上版本。Mac 双击 Start on Mac.command；Windows 双击 Start on Windows.cmd。也可以在文件夹中打开终端，在 Mac/Linux 输入 python3 launch.py，在 Windows 输入 py -3 launch.py。Windows 64 位免安装版已经自带 Python，解压后双击 Start.cmd。
+
+浏览器会自动打开。演示时保持终端开着，结束后在终端按 Ctrl+C。第一次可以点 Find an item → Try example → Find matches。四张图都在 diagrams/Campus Lost and Found.drawio，打开后用下方页签切换。
+
+• 查找失物：选择物品类型，输入到过的地点和各自的停留时段。可以继续添加地点。查到仍待领取的物品后，查看领取地点，线下联系交接。
+• 登记拾获：填写拾获信息和领取地点。实际把物品交还失主后，拾获者在 My found reports 点 Confirm handover，再点 Yes, mark claimed。后续查询会排除这条已认领记录。
+• 发布寻物启事：填写物品、最后见到的地点和时间以及描述。启事会在 Open notices 持续展示。发布者可以在 My notices 编辑自己的公开启事，或在寻物结束后点 Mark resolved，再点 Yes, mark resolved。确认后启事从公开列表移除，拾获记录的认领状态由拾获者单独确认。
+• 紧急查找：失主在 Ask for help 登记具体位置和物品。愿意帮忙的人在 Help nearby 选择自己当前所在地点，点 Receive nearby requests。同楼同层或同一独立区域的求助会进入相应列表。请求有效期为 30 分钟，失主也可在发布时用的标签页提前关闭。
+
+一起演示时，一个人开服务即可。Mac 双击 Start on WiFi.command。Windows 通用版在终端输入 py -3 launch.py --lan，Linux 输入 python3 launch.py --lan。Windows 免安装版从含 Start.cmd 的文件夹运行 runtime\python.exe -B app\launch.py --lan。所有人连接同一可互访的 Wi-Fi 或热点，打开终端 “On a phone on the same network” 后的网址。校园网若限制设备互访，可以使用同一个热点；主机需要保持运行。各自独立启动时，每台电脑使用各自的数据库。
+
+管理自己发布的启事和拾获记录需要回到同一浏览器配置和同一网址（含端口）。保留原解压文件夹可复用本机默认地址和数据。清除网站数据或关闭无痕会话会清除本地管理凭据。整个流程无须登录。

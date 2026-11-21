@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" compressed="false" pages="4">
+  <diagram id="use-cases" name="UML Use Cases">
+  <mxGraphModel dx="1983" dy="873" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="0" pageScale="1" pageWidth="1440" pageHeight="1040" background="#FFFFFF" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      <mxCell id="title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=38;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="UML use cases" vertex="1">
+        <mxGeometry height="52" width="1260" x="65" y="33" as="geometry" />
+      </mxCell>
+      <mxCell id="subtitle" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="A student can act as a finder, an item owner or a volunteer. Any student can browse the open lost notices." vertex="1">
+        <mxGeometry height="33" width="1420" x="66" y="85" as="geometry" />
+      </mxCell>
+      <mxCell id="boundary" parent="1" style="rounded=0;arcSize=5;strokeColor=#282828;fillColor=#FAFAFA;strokeWidth=2;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+        <mxGeometry height="874" width="1050" x="175" y="125" as="geometry" />
+      </mxCell>
+      <mxCell id="subject" parent="boundary" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Campus Lost &amp; Found" vertex="1">
+        <mxGeometry height="47" width="750" x="32" y="11" as="geometry" />
+      </mxCell>
+      <mxCell id="report" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Report a found item" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="74" as="geometry" />
+      </mxCell>
+      <mxCell id="claim" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Confirm item handover" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="151" as="geometry" />
+      </mxCell>
+      <mxCell id="browse" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Browse open lost notices" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="228" as="geometry" />
+      </mxCell>
+      <mxCell id="notice" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Publish a lost notice" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="305" as="geometry" />
+      </mxCell>
+      <mxCell id="publish" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Post an urgent search request" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="382" as="geometry" />
+      </mxCell>
+      <mxCell id="search" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Find a lost item&lt;br&gt;by place and time" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="459" as="geometry" />
+      </mxCell>
+      <mxCell id="inspect" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="View matches, reasons&lt;br&gt;and pickup locations" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="536" as="geometry" />
+      </mxCell>
+      <mxCell id="edit" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Edit own lost notice" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="613" as="geometry" />
+      </mxCell>
+      <mxCell id="resolve" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Mark own lost notice resolved" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="690" as="geometry" />
+      </mxCell>
+      <mxCell id="close" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Close own urgent request" vertex="1">
+        <mxGeometry height="66" width="340" x="88" y="767" as="geometry" />
+      </mxCell>
+      <mxCell id="location" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Specify campus location" vertex="1">
+        <mxGeometry height="75" width="325" x="650" y="261" as="geometry" />
+      </mxCell>
+      <mxCell id="add-stop" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Add another visit" vertex="1">
+        <mxGeometry height="66" width="325" x="650" y="459" as="geometry" />
+      </mxCell>
+      <mxCell id="subscribe" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="Manage nearby alerts&lt;br&gt;for a selected area" vertex="1">
+        <mxGeometry height="71" width="325" x="650" y="656" as="geometry" />
+      </mxCell>
+      <mxCell id="receive" parent="boundary" style="ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="View nearby&lt;br&gt;urgent requests" vertex="1">
+        <mxGeometry height="71" width="325" x="650" y="757" as="geometry" />
+      </mxCell>
+      <mxCell id="when" parent="boundary" style="text;html=0;align=center;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#444444;fontSize=17;fontFamily=Helvetica;" value="When the owner adds another stop" vertex="1">
+        <mxGeometry height="32" width="328" x="640" y="533" as="geometry" />
+      </mxCell>
+      <mxCell id="finder" parent="1" style="shape=umlActor;html=0;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#282828;strokeWidth=3;fontSize=22;fontColor=#171717;fontFamily=Helvetica;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=8;" value="Finder" vertex="1">
+        <mxGeometry height="90" width="52" x="65" y="277" as="geometry" />
+      </mxCell>
+      <mxCell id="owner" parent="1" style="shape=umlActor;html=0;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#282828;strokeWidth=3;fontSize=22;fontColor=#171717;fontFamily=Helvetica;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=8;" value="Item owner" vertex="1">
+        <mxGeometry height="90" width="52" x="65" y="675" as="geometry" />
+      </mxCell>
+      <mxCell id="helper" parent="1" style="shape=umlActor;html=0;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#282828;strokeWidth=3;fontSize=22;fontColor=#171717;fontFamily=Helvetica;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=8;" value="Volunteer helper" vertex="1">
+        <mxGeometry height="90" width="52" x="1325" y="828" as="geometry" />
+      </mxCell>
+      <mxCell id="finder-report" parent="1" source="finder" target="report" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="finder-claim" parent="1" source="finder" target="claim" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="finder-browse" parent="1" source="finder" target="browse" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-browse" parent="1" source="owner" target="browse" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-notice" parent="1" source="owner" target="notice" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-publish" parent="1" source="owner" target="publish" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-search" parent="1" source="owner" target="search" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-inspect" parent="1" source="owner" target="inspect" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-edit" parent="1" source="owner" target="edit" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-resolve" parent="1" source="owner" target="resolve" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="owner-close" parent="1" source="owner" target="close" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=1;exitY=0.3333;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="helper-subscribe" parent="1" source="helper" target="subscribe" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=0;exitY=0.3333;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="helper-receive" parent="1" source="helper" target="receive" edge="1" value="" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=none;exitX=0;exitY=0.3333;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="report-location" parent="1" source="report" target="location" edge="1" value="«include»" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=open;endSize=11;endFill=0;dashed=1;dashPattern=6 4;fontFamily=Helvetica;fontSize=17;fontColor=#252525;labelBackgroundColor=#FAFAFA;exitX=0.98;exitY=0.63;entryX=0.1;entryY=0.2;exitPerimeter=1;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="notice-location" parent="1" source="notice" target="location" edge="1" value="«include»" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=open;endSize=11;endFill=0;dashed=1;dashPattern=6 4;fontFamily=Helvetica;fontSize=17;fontColor=#252525;labelBackgroundColor=#FAFAFA;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="urgent-location" parent="1" source="publish" target="location" edge="1" value="«include»" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=open;endSize=11;endFill=0;dashed=1;dashPattern=6 4;fontFamily=Helvetica;fontSize=17;fontColor=#252525;labelBackgroundColor=#FAFAFA;exitX=0.98;exitY=0.35;entryX=0.08;entryY=0.77;exitPerimeter=1;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="more-visits" parent="1" source="add-stop" target="search" edge="1" value="«extend»" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#444444;startArrow=none;endArrow=open;endSize=11;endFill=0;dashed=1;dashPattern=6 4;fontFamily=Helvetica;fontSize=17;fontColor=#252525;labelBackgroundColor=#FAFAFA;exitX=0;exitY=.5;entryX=1;entryY=.5;exitPerimeter=1;entryPerimeter=1;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+    </root>
+  </mxGraphModel>
+</diagram><diagram id="system-design" name="System Design">
+  <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1440" pageHeight="900" background="#FFFFFF" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      <mxCell id="title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=38;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="System design" vertex="1">
+        <mxGeometry height="52" width="1260" x="82" y="33" as="geometry" />
+      </mxCell>
+      <mxCell id="subtitle" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="The browser sends HTTP requests to a Python service, which reads and writes shared records in SQLite." vertex="1">
+        <mxGeometry height="33" width="1251" x="83" y="85" as="geometry" />
+      </mxCell>
+      <mxCell id="browser" parent="1" style="rounded=0;arcSize=5;strokeColor=#282828;fillColor=#F8F8F8;strokeWidth=2;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+        <mxGeometry height="504" width="333" x="62" y="151" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-head" parent="browser" style="rounded=0;arcSize=5;strokeColor=#282828;fillColor=#282828;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="62" width="333" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-title" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=25;fontFamily=Helvetica;fontColor=#FFFFFF;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Web browser" vertex="1">
+        <mxGeometry height="43" width="297" x="18" y="9" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-row0" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Campus location picker" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="76" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-desc0" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Choose a place or enter a room." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="103" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-divider0" parent="browser" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="148" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-row1" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Found reports and handover" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="161" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-desc1" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Save a find. Confirm handover only&#10;after the item has been returned." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="188" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-divider1" parent="browser" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="233" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-row2" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Search and results" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="246" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-desc2" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Enter timed visits and view&#10;ranked matches and pickup details." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="273" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-divider2" parent="browser" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="318" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-row3" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Lost notice board" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="331" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-desc3" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Browse open notices. Publish, edit&#10;or resolve a notice of your own." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="358" as="geometry" />
+      </mxCell>
+      <mxCell id="service" parent="1" style="rounded=0;arcSize=5;strokeColor=#282828;fillColor=#F8F8F8;strokeWidth=2;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+        <mxGeometry height="504" width="333" x="554" y="151" as="geometry" />
+      </mxCell>
+      <mxCell id="service-head" parent="service" style="rounded=0;arcSize=5;strokeColor=#282828;fillColor=#282828;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="62" width="333" as="geometry" />
+      </mxCell>
+      <mxCell id="service-title" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=25;fontFamily=Helvetica;fontColor=#FFFFFF;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Python HTTP service" vertex="1">
+        <mxGeometry height="43" width="297" x="18" y="9" as="geometry" />
+      </mxCell>
+      <mxCell id="service-row0" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Campus location catalogue" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="76" as="geometry" />
+      </mxCell>
+      <mxCell id="service-desc0" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Resolve room aliases to place IDs.&#10;Map places to alert zones." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="103" as="geometry" />
+      </mxCell>
+      <mxCell id="service-divider0" parent="service" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="148" as="geometry" />
+      </mxCell>
+      <mxCell id="service-row1" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Found-item records" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="161" as="geometry" />
+      </mxCell>
+      <mxCell id="service-desc1" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Save available finds. Verify the finder&#10;credential before marking claimed." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="188" as="geometry" />
+      </mxCell>
+      <mxCell id="service-divider1" parent="service" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="233" as="geometry" />
+      </mxCell>
+      <mxCell id="service-row2" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Route matcher" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="246" as="geometry" />
+      </mxCell>
+      <mxCell id="service-desc2" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Filter available finds by type, place&#10;and time. Rank and explain results." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="273" as="geometry" />
+      </mxCell>
+      <mxCell id="service-divider2" parent="service" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="318" as="geometry" />
+      </mxCell>
+      <mxCell id="service-row3" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Lost notices" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="331" as="geometry" />
+      </mxCell>
+      <mxCell id="service-desc3" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="List open notices. Verify the owner&#10;credential before editing or resolving." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="358" as="geometry" />
+      </mxCell>
+      <mxCell id="store" parent="1" style="shape=cylinder3;size=24;boundedLbl=1;backgroundOutline=1;strokeColor=#555555;fillColor=#F1F1F1;strokeWidth=2;html=0;container=1;collapsible=0;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+        <mxGeometry height="504" width="320" x="1055" y="151" as="geometry" />
+      </mxCell>
+      <mxCell id="db-title" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=30;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="SQLite" vertex="1">
+        <mxGeometry height="40" width="280" x="20" y="54" as="geometry" />
+      </mxCell>
+      <mxCell id="db-label" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=21;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Found-item reports" vertex="1">
+        <mxGeometry height="28" width="288" x="16" y="101" as="geometry" />
+      </mxCell>
+      <mxCell id="db-fields" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=19;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Item, site, time, pickup point&#10;and Available / Claimed status" vertex="1">
+        <mxGeometry height="46" width="286" x="17" y="132" as="geometry" />
+      </mxCell>
+      <mxCell id="db-div" parent="store" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#555555;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="254" x="33" y="186" as="geometry" />
+      </mxCell>
+      <mxCell id="urgent-data" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=21;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Lost notices" vertex="1">
+        <mxGeometry height="29" width="284" x="18" y="197" as="geometry" />
+      </mxCell>
+      <mxCell id="urgent-data-fields" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Item, site, last-seen time,&#10;description and Open / Resolved" vertex="1">
+        <mxGeometry height="54" width="286" x="17" y="226" as="geometry" />
+      </mxCell>
+      <mxCell id="http-send" edge="1" parent="1" source="browser" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="service">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="http-return" edge="1" parent="1" source="service" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.73;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;" target="browser">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="sql-send" edge="1" parent="1" source="service" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="store">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="sql-return" edge="1" parent="1" source="store" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=.73;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;" target="service">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="send-label" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="HTTP request" vertex="1">
+        <mxGeometry height="25" width="155" x="398" y="320" as="geometry" />
+      </mxCell>
+      <mxCell id="resp-label" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="HTTP response" vertex="1">
+        <mxGeometry height="25" width="155" x="398" y="486" as="geometry" />
+      </mxCell>
+      <mxCell id="sql-label" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Write / query" vertex="1">
+        <mxGeometry height="25" width="163" x="889" y="320" as="geometry" />
+      </mxCell>
+      <mxCell id="sql-result" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Read records" vertex="1">
+        <mxGeometry height="25" width="163" x="889" y="486" as="geometry" />
+      </mxCell>
+      <mxCell id="lifecycle-copy" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="The browser keeps private management credentials for its own found reports and lost notices. Urgent requests use a credential in the original tab. The service checks the credential on each change and reuses the original receipt when a submission is retried." vertex="1">
+        <mxGeometry height="85" width="1253" x="85" y="726" as="geometry" />
+      </mxCell>
+      <mxCell id="lifecycle-title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=23;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Managing records after submission" vertex="1">
+        <mxGeometry height="31" width="1220" x="85" y="690" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-row4" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Urgent search" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="416" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-desc4" parent="browser" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Post or close a 30-minute request.&#10;Opt in to view nearby active requests." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="443" as="geometry" />
+      </mxCell>
+      <mxCell id="browser-divider3" parent="browser" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="403" as="geometry" />
+      </mxCell>
+      <mxCell id="service-row4" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Urgent requests and feed" vertex="1">
+        <mxGeometry height="24" width="298" x="20" y="416" as="geometry" />
+      </mxCell>
+      <mxCell id="service-desc4" parent="service" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Verify closure. Filter by area, open&#10;status and expiry on each poll." vertex="1">
+        <mxGeometry height="45" width="298" x="20" y="443" as="geometry" />
+      </mxCell>
+      <mxCell id="service-divider3" parent="service" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="291" x="20" y="403" as="geometry" />
+      </mxCell>
+      <mxCell id="submission-divider" parent="store" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#555555;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="254" x="33" y="293" as="geometry" />
+      </mxCell>
+      <mxCell id="submission-title" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=21;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Urgent requests" vertex="1">
+        <mxGeometry height="27" width="284" x="18" y="306" as="geometry" />
+      </mxCell>
+      <mxCell id="submission-details" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Item, spot, area, expiry&#10;and closed status" vertex="1">
+        <mxGeometry height="55" width="286" x="17" y="334" as="geometry" />
+      </mxCell>
+      <mxCell id="receipt-divider" parent="store" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#555555;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="254" x="33" y="395" as="geometry" />
+      </mxCell>
+      <mxCell id="receipt-label" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=21;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Submission receipts" vertex="1">
+        <mxGeometry height="27" width="284" x="18" y="406" as="geometry" />
+      </mxCell>
+      <mxCell id="receipt-fields" parent="store" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Record IDs and retry hashes" vertex="1">
+        <mxGeometry height="55" width="286" x="17" y="435" as="geometry" />
+      </mxCell>
+    </root>
+  </mxGraphModel>
+</diagram><diagram id="matching-logic" name="Matching Logic">
+  <mxGraphModel dx="1983" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" background="#FFFFFF" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      <mxCell id="title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=38;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Matching logic" vertex="1">
+        <mxGeometry height="52" width="1260" x="82" y="33" as="geometry" />
+      </mxCell>
+      <mxCell id="subtitle" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="The owner enters the item type, optional colour and timed visits. The search uses available found-item reports." vertex="1">
+        <mxGeometry height="33" width="1251" x="83" y="85" as="geometry" />
+      </mxCell>
+      <mxCell id="start" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=50;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#282828;strokeColor=#282828;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;fontColor=#FFFFFF;" value="&lt;b&gt;Owner submits a lost-item search&lt;/b&gt;" vertex="1">
+        <mxGeometry height="49" width="435" x="182" y="139" as="geometry" />
+      </mxCell>
+      <mxCell id="valid" parent="1" style="rhombus;perimeter=rhombusPerimeter;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#EEEEEE;strokeColor=#3B3B3B;strokeWidth=3;fontColor=#171717;fontSize=20;fontFamily=Helvetica;" value="&lt;b&gt;Is the input valid?&lt;/b&gt;" vertex="1">
+        <mxGeometry height="103" width="307" x="246" y="213" as="geometry" />
+      </mxCell>
+      <mxCell id="error" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=50;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#EEEEEE;strokeColor=#3B3B3B;strokeWidth=2;fontColor=#171717;fontSize=21;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Show the input error&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:16px;margin-top:5px&quot;&gt;Departure must follow arrival. Both times must be in the past or present.&lt;br&gt;Visits to different places must not overlap.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="93" width="600" x="774" y="218" as="geometry" />
+      </mxCell>
+      <mxCell id="pairs" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#F1F1F1;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:22px&quot;&gt;&lt;b&gt;Select available finds at the same place&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px&quot;&gt;Skip claimed items. Require the same category and place ID.&lt;br&gt;A known room alias uses the same ID as its room.&lt;br&gt;The item must have been found at or after arrival.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="102" width="668" x="65" y="351" as="geometry" />
+      </mxCell>
+      <mxCell id="best" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#F1F1F1;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:22px&quot;&gt;&lt;b&gt;Keep each matching report once&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;margin-top:5px&quot;&gt;If several visits qualify for the same report, use its best visit.&lt;br&gt;Discard reports that have no eligible visit.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="88" width="668" x="65" y="473" as="geometry" />
+      </mxCell>
+      <mxCell id="sort" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#F1F1F1;strokeColor=#555555;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:22px&quot;&gt;&lt;b&gt;Rank the matching reports&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;margin-top:5px&quot;&gt;Use the four rules at right to order the list.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="72" width="668" x="65" y="593" as="geometry" />
+      </mxCell>
+      <mxCell id="show" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=25;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#F2F2F2;strokeColor=#282828;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Show ranked matches and pickup locations&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Each result explains why it matched.&lt;br&gt;If no report qualifies, display “No matching reports.”&lt;/div&gt;" vertex="1">
+        <mxGeometry height="86" width="668" x="65" y="694" as="geometry" />
+      </mxCell>
+      <mxCell id="start-valid" edge="1" parent="1" source="start" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="valid">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="invalid-input" edge="1" parent="1" source="valid" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#404040;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="error">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="valid-input" edge="1" parent="1" source="valid" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="pairs">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="no" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#252525;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="No" vertex="1">
+        <mxGeometry height="23" width="76" x="659" y="231" as="geometry" />
+      </mxCell>
+      <mxCell id="yes" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontFamily=Helvetica;fontColor=#303030;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Yes" vertex="1">
+        <mxGeometry height="24" width="58" x="411" y="321" as="geometry" />
+      </mxCell>
+      <mxCell id="pair-best" edge="1" parent="1" source="pairs" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="best">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="best-sort" edge="1" parent="1" source="best" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="sort">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="sort-show" edge="1" parent="1" source="sort" style="noEdgeStyle=1;rounded=0;curved=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="show">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="rules" parent="1" style="rounded=0;arcSize=5;strokeColor=#C9C9C9;fillColor=#F8F8F8;strokeWidth=1.5;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+        <mxGeometry height="421" width="537" x="838" y="355" as="geometry" />
+      </mxCell>
+      <mxCell id="rule-accent" parent="rules" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#303030;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="421" width="5" as="geometry" />
+      </mxCell>
+      <mxCell id="visit-title" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Which visit fits best?" vertex="1">
+        <mxGeometry height="35" width="486" x="22" y="17" as="geometry" />
+      </mxCell>
+      <mxCell id="visit-note" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=19;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="A find counts as during a visit from arrival through departure, including both endpoints. If it was found after all qualifying visits, use the time since the most recent departure." vertex="1">
+        <mxGeometry height="117" width="490" x="22" y="59" as="geometry" />
+      </mxCell>
+      <mxCell id="rules-divider" parent="rules" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="1" width="490" x="22" y="185" as="geometry" />
+      </mxCell>
+      <mxCell id="rank-title" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Ordering candidate reports" vertex="1">
+        <mxGeometry height="35" width="490" x="22" y="202" as="geometry" />
+      </mxCell>
+      <mxCell id="num0" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontFamily=Helvetica;fontColor=#303030;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="1." vertex="1">
+        <mxGeometry height="28" width="32" x="22" y="251" as="geometry" />
+      </mxCell>
+      <mxCell id="factor0" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#171717;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Requested colour matches first, if specified" vertex="1">
+        <mxGeometry height="28" width="459" x="55" y="251" as="geometry" />
+      </mxCell>
+      <mxCell id="num1" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontFamily=Helvetica;fontColor=#303030;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="2." vertex="1">
+        <mxGeometry height="28" width="32" x="22" y="288" as="geometry" />
+      </mxCell>
+      <mxCell id="factor1" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#171717;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Found during the visit first" vertex="1">
+        <mxGeometry height="28" width="459" x="55" y="288" as="geometry" />
+      </mxCell>
+      <mxCell id="num2" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontFamily=Helvetica;fontColor=#303030;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="3." vertex="1">
+        <mxGeometry height="28" width="32" x="22" y="325" as="geometry" />
+      </mxCell>
+      <mxCell id="factor2" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#171717;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Shortest gap after departure first" vertex="1">
+        <mxGeometry height="28" width="459" x="55" y="325" as="geometry" />
+      </mxCell>
+      <mxCell id="num3" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontFamily=Helvetica;fontColor=#303030;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="4." vertex="1">
+        <mxGeometry height="28" width="32" x="22" y="362" as="geometry" />
+      </mxCell>
+      <mxCell id="factor3" parent="rules" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontFamily=Helvetica;fontColor=#171717;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Lowest report ID first if still tied" vertex="1">
+        <mxGeometry height="28" width="459" x="55" y="362" as="geometry" />
+      </mxCell>
+      <mxCell id="invalid-found-time" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="One visit may start exactly when another ends." vertex="1">
+        <mxGeometry height="28" width="600" x="774" y="314" as="geometry" />
+      </mxCell>
+    </root>
+  </mxGraphModel>
+</diagram><diagram id="urgent-search" name="Urgent Search">
+  <mxGraphModel dx="1983" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" background="#FFFFFF" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      <mxCell id="title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=38;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Urgent search" vertex="1">
+        <mxGeometry height="52" width="1260" x="82" y="33" as="geometry" />
+      </mxCell>
+      <mxCell id="subtitle" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="An urgent request stays active for up to 30 minutes. Volunteers view active requests for their selected area." vertex="1">
+        <mxGeometry height="33" width="1280" x="83" y="85" as="geometry" />
+      </mxCell>
+      <mxCell id="owner-lane" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=23;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Requester" vertex="1">
+        <mxGeometry height="37" width="335" x="62" y="138" as="geometry" />
+      </mxCell>
+      <mxCell id="owner-lane-rule" parent="1" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="2" width="335" x="62" y="183" as="geometry" />
+      </mxCell>
+      <mxCell id="dispatch-lane" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=23;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Alert service" vertex="1">
+        <mxGeometry height="37" width="365" x="505" y="138" as="geometry" />
+      </mxCell>
+      <mxCell id="dispatch-lane-rule" parent="1" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="2" width="365" x="505" y="183" as="geometry" />
+      </mxCell>
+      <mxCell id="helper-lane" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=23;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Volunteer helper" vertex="1">
+        <mxGeometry height="37" width="347" x="983" y="138" as="geometry" />
+      </mxCell>
+      <mxCell id="helper-lane-rule" parent="1" style="rounded=0;arcSize=5;strokeColor=none;fillColor=#C9C9C9;strokeWidth=0;" value="" vertex="1">
+        <mxGeometry height="2" width="347" x="983" y="183" as="geometry" />
+      </mxCell>
+      <mxCell id="post" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#EFEFEF;strokeColor=#242424;strokeWidth=3;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Post an urgent request&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Enter the item type, place, exact spot&lt;br&gt;and identifying details.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="98" width="335" x="62" y="211" as="geometry" />
+      </mxCell>
+      <mxCell id="active" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#EFEFEF;strokeColor=#242424;strokeWidth=3;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Save the request&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Set its area and an expiry time&lt;br&gt;30 minutes after creation.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="98" width="365" x="505" y="211" as="geometry" />
+      </mxCell>
+      <mxCell id="close-own" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#282828;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Close own request early&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;The original browser tab holds the&lt;br&gt;credential needed to close it.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="94" width="335" x="62" y="357" as="geometry" />
+      </mxCell>
+      <mxCell id="close-record" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#EFEFEF;strokeColor=#242424;strokeWidth=3;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Check the owner credential&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;If it matches, mark the request closed.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="94" width="365" x="505" y="357" as="geometry" />
+      </mxCell>
+      <mxCell id="opt" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#F6F6F6;strokeColor=#282828;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Choose a place and opt in&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Select the current room or landmark&lt;br&gt;and enable nearby requests.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="98" width="347" x="983" y="211" as="geometry" />
+      </mxCell>
+      <mxCell id="poll" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#F6F6F6;strokeColor=#282828;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Request the current list&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Check now, then about every 3 seconds&lt;br&gt;while receiving is on.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="94" width="347" x="983" y="357" as="geometry" />
+      </mxCell>
+      <mxCell id="eligible" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#EFEFEF;strokeColor=#242424;strokeWidth=3;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Filter stored requests&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Return all open, unexpired requests&lt;br&gt;in the selected area, including any&lt;br&gt;posted before the volunteer opted in.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="114" width="365" x="505" y="503" as="geometry" />
+      </mxCell>
+      <mxCell id="show-alert" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#F6F6F6;strokeColor=#282828;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Refresh the list&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Show items and exact spots. Remove&lt;br&gt;ended requests. If the list is empty,&lt;br&gt;show “No active requests”.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="114" width="347" x="983" y="503" as="geometry" />
+      </mxCell>
+      <mxCell id="receiving" parent="1" style="rhombus;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=3;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#171717;" value="Still receiving?" vertex="1">
+        <mxGeometry height="88" width="293" x="1010" y="655" as="geometry" />
+      </mxCell>
+      <mxCell id="stop" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=50;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=5;fillColor=#FFFFFF;strokeColor=#282828;strokeWidth=2;fontColor=#171717;fontSize=22;fontFamily=Helvetica;" value="&lt;div style=&quot;font-size:21px&quot;&gt;&lt;b&gt;Stop receiving&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;margin-top:5px&quot;&gt;Clear the list and stop checking.&lt;/div&gt;" vertex="1">
+        <mxGeometry height="74" width="347" x="983" y="779" as="geometry" />
+      </mxCell>
+      <mxCell id="scope-title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Which requests are nearby?" vertex="1">
+        <mxGeometry height="33" width="335" x="62" y="508" as="geometry" />
+      </mxCell>
+      <mxCell id="scope-note" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=18;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Match the building and floor if listed.&#10;Otherwise match the exact place,&#10;such as an outdoor landmark." vertex="1">
+        <mxGeometry height="91" width="335" x="62" y="545" as="geometry" />
+      </mxCell>
+      <mxCell id="create" edge="1" parent="1" source="post" target="active" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="close-request" edge="1" parent="1" source="close-own" target="close-record" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="enable" edge="1" parent="1" source="opt" target="poll" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="poll-feed" edge="1" parent="1" source="poll" target="eligible" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1">
+          <Array as="points">
+            <mxPoint x="926" y="404" />
+            <mxPoint x="926" y="478" />
+            <mxPoint x="687.5" y="478" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="respond" edge="1" parent="1" source="eligible" target="show-alert" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="check-enabled" edge="1" parent="1" source="show-alert" target="receiving" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="repeat" edge="1" parent="1" source="receiving" target="poll" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1">
+          <Array as="points">
+            <mxPoint x="1389" y="699" />
+            <mxPoint x="1389" y="404" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="stop-listening" edge="1" parent="1" source="receiving" target="stop" style="noEdgeStyle=1;rounded=0;html=0;strokeWidth=2;strokeColor=#282828;startArrow=none;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+        <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+      <mxCell id="yes-new" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontFamily=Helvetica;fontColor=#303030;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Yes" vertex="1">
+        <mxGeometry height="27" width="48" x="1328" y="665" as="geometry" />
+      </mxCell>
+      <mxCell id="no" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontFamily=Helvetica;fontColor=#484848;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="No" vertex="1">
+        <mxGeometry height="27" width="53" x="1168" y="747" as="geometry" />
+      </mxCell>
+      <mxCell id="independent-title" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontFamily=Helvetica;fontColor=#171717;fontStyle=1;spacing=0;spacingTop=0;spacingBottom=0;" value="Other record states" vertex="1">
+        <mxGeometry height="36" width="355" x="62" y="688" as="geometry" />
+      </mxCell>
+      <mxCell id="independent-note" parent="1" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=18;fontFamily=Helvetica;fontColor=#484848;fontStyle=0;spacing=0;spacingTop=0;spacingBottom=0;" value="Lost notices stay open until resolved.&#10;A found item is marked claimed only&#10;when its finder confirms handover.&#10;These actions leave urgent requests unchanged." vertex="1">
+        <mxGeometry height="125" width="420" x="62" y="730" as="geometry" />
+      </mxCell>
+    </root>
+  </mxGraphModel>
+</diagram></mxfile>

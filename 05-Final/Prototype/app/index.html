@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f0">
+  <title>Lost &amp; Found · Taylor’s Lakeside Campus</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <span class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Taylor’s Lakeside Campus</span></span>
+      <a class="directory-link" href="https://university.taylors.edu.my/en/student-life/campus-facilities.html" target="_blank" rel="noopener">Campus directory <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="hero-type"><h1>Lost <span>&amp;</span> Found</h1></div>
+      <a class="hero-photo" href="/PHOTO-CREDIT.txt" target="_blank" rel="noopener" aria-label="Campus photograph by Yewvie. View photo credit and licence."><img src="campus-lake.jpg" alt="Taylor’s Lakeside Campus"></a>
+      <div class="route-art" aria-hidden="true"><i></i><i></i><i></i><b></b><b></b><b></b></div>
+    </div>
+    <div class="switcher" aria-label="Choose a task" role="group">
+      <button type="button" class="mode active" aria-pressed="true" aria-controls="search-panel" id="show-search" aria-label="Search for an item"><span class="nav-icon search-icon" aria-hidden="true"></span><span>Find an item</span></button>
+      <button type="button" class="mode" aria-pressed="false" aria-controls="report-panel" id="show-report" aria-label="Report a found item"><span class="nav-icon report-icon" aria-hidden="true"></span><span>Report a find</span></button>
+      <button type="button" class="mode" aria-pressed="false" aria-controls="notices-panel" id="show-notices">Lost notices</button>
+      <button type="button" class="mode urgent-switch" aria-pressed="false" aria-controls="urgent-panel" id="show-urgent"><b class="nav-icon" aria-hidden="true">!</b><span>Urgent search</span></button>
+    </div>
+    <div class="catalog-status" id="catalog-status" role="status">Loading campus locations…</div>
+    <button id="retry" class="outline" type="button" hidden>Retry loading</button>
+    <section id="search-panel" aria-label="Search for an item">
+      <div class="workspace">
+        <form id="search-form" class="form-panel">
+          <fieldset class="form-fields" disabled>
+            <div class="section-heading"><h2 id="lost-item-title">What did you lose?</h2><button class="text-link" id="example" type="button">Try example <span aria-hidden="true">↗</span></button></div>
+            <div class="category-picks" role="group" aria-labelledby="lost-item-title">
+              <button type="button" class="category-pick" data-item-type="Keys" aria-pressed="false">
+                <svg class="pick-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M14.4 17.4a7.3 7.3 0 1 1 5.7 3.1L12 28.4H7.2v-4.9h3.2v-2.7h2.1l2.7-2.7" fill="#eed2a0" stroke="#69471e" stroke-width="1.8" stroke-linejoin="round"/><circle cx="21.1" cy="10.3" r="2.1" fill="#fff9e9" stroke="#69471e" stroke-width="1.5"/></svg>
+                <span>Keys</span>
+              </button>
+              <button type="button" class="category-pick" data-item-type="Water bottle" aria-pressed="false">
+                <svg class="pick-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M12.4 8.4v2.3c0 1.8-3.3 2.7-3.3 5.6v9c0 2.2 1.2 3.4 3.4 3.4h7c2.2 0 3.4-1.2 3.4-3.4v-9c0-2.9-3.3-3.8-3.3-5.6V8.4" fill="#a7cec1" stroke="#355f52" stroke-width="1.8"/><rect x="11.1" y="3.8" width="9.8" height="4.7" rx="1.4" fill="#f4e8c8" stroke="#355f52" stroke-width="1.6"/><path d="M12 19.2v5.1" stroke="#effaf3" stroke-width="1.8" stroke-linecap="round"/></svg>
+                <span>Water bottle</span>
+              </button>
+              <button type="button" class="category-pick" data-item-type="Umbrella" aria-pressed="false">
+                <svg class="pick-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="m17.5 4-.1 2M16 16l-1.2 9.1c-.5 4-5.1 3.8-5.3.8" stroke="#6c4638" stroke-width="1.9" stroke-linecap="round"/><path d="M3.8 15.2c1.2-6 6.8-10.1 13.4-9.4 6.6.6 11.2 5.6 11.3 12.1-2.1-2-4.3-2.5-6.4-.8-1.6-1.9-3.8-2.3-6.3-.7-1.4-1.9-3.2-2.3-5.9-.7-1.6-1.6-3.6-1.8-6.1-.5Z" fill="#e7aa96" stroke="#6c4638" stroke-width="1.6" stroke-linejoin="round"/><path d="M17.2 6.4c-3.2 1.2-5.7 4.2-7.1 8.4" stroke="#a66d58" stroke-width="1.3"/></svg>
+                <span>Umbrella</span>
+              </button>
+              <label class="category-pick category-more" id="more-category">
+                <svg class="pick-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="7" cy="16" r="2" fill="currentColor"/><circle cx="16" cy="16" r="2" fill="currentColor"/><circle cx="25" cy="16" r="2" fill="currentColor"/></svg>
+                <span id="more-caption" aria-hidden="true">More</span><select id="search-category" aria-label="All item types" required></select>
+              </label>
+            </div>
+            <details class="colour-detail"><summary id="colour-summary">Add a colour</summary><label>Colour (optional)<select id="search-colour"></select></label></details>
+            <div class="section-heading route-heading"><h2>Where did you go?</h2><button id="add-stop" class="text-link" type="button"><span aria-hidden="true">＋</span> Add stop</button></div>
+            <div id="visits"></div>
+            <p id="search-error" class="error" role="alert" hidden></p>
+            <button class="primary" id="search-button" type="submit">Find matches <span aria-hidden="true">→</span></button>
+          </fieldset>
+        </form>
+        <aside class="results-panel" aria-labelledby="matches-title">
+          <div class="results-heading"><h2 id="matches-title">Search results</h2><span id="match-count" class="count" hidden></span></div>
+          <p id="result-status" class="sr-only" role="status"></p>
+          <div id="results" aria-busy="false">
+            <div class="empty-state pending-results"><span class="lens" aria-hidden="true"></span><p>No search yet.</p></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section id="report-panel" aria-label="Report a found item" hidden>
+      <div class="workspace">
+        <form id="report-form" class="form-panel">
+          <fieldset class="form-fields" disabled>
+            <h2>What did you find?</h2>
+            <div class="field-pair">
+              <label>Category<select id="found-category" required></select></label>
+              <label>Colour (optional)<select id="found-colour"></select></label>
+            </div>
+            <label>Description<textarea id="description" rows="3" maxlength="2000" placeholder="e.g. Compact umbrella with a wooden handle" required></textarea></label>
+            <h2 class="route-heading">Recovery details</h2>
+            <div class="place-picker" role="group" aria-label="Found location">
+              <div class="picker-fields"><label>Building or area<select id="found-building" class="place-building" required></select></label>
+                <label>Venue or room<select id="found-location" class="place-venue" required></select></label></div>
+              <p class="place-note" hidden></p>
+            </div>
+            <label>Specific spot (optional)<input id="found-spot" type="text" maxlength="140" placeholder="e.g. Under the second row of seats"></label>
+            <label>Date and time found (UTC+8)<input id="found-at" type="datetime-local" step="60" required></label>
+            <label>Collection point<input id="collection-point" maxlength="200" type="text" placeholder="e.g. Library reception desk" required></label>
+            <p id="report-error" class="error" role="alert" hidden></p>
+            <button id="report-button" class="primary" type="submit">Save found item <span aria-hidden="true">→</span></button>
+          </fieldset>
+        </form>
+        <div class="records-stack">
+        <aside class="results-panel" aria-labelledby="report-title">
+          <div class="results-heading"><h2 id="report-title">Report confirmation</h2></div>
+          <div id="report-confirmation" role="status"><div class="empty-state pending-results"><span class="slip" aria-hidden="true"></span><p>No report yet.</p></div></div>
+        </aside>
+        <aside id="my-finds" class="results-panel" aria-labelledby="my-finds-title" hidden>
+          <h2 id="my-finds-title">My found reports</h2>
+          <p class="record-hint">Return here in the same browser to confirm when you have handed an item back.</p>
+          <p id="my-finds-status" class="inline-status" role="status"></p>
+          <div id="my-finds-list"></div>
+        </aside>
+        </div>
+      </div>
+    </section>
+    <section id="notices-panel" aria-label="Lost notices" hidden>
+      <div class="workspace notice-workspace">
+        <form id="notice-form" class="form-panel">
+          <fieldset class="form-fields" disabled>
+            <h2 id="notice-form-title">Post a lost notice</h2>
+            <p class="record-hint">Your notice stays on the board until you mark it resolved.</p>
+            <label>Item type<select id="notice-category" required></select></label>
+            <div class="place-picker" role="group" aria-label="Where the item was last seen">
+              <div class="picker-fields"><label>Building or area<select id="notice-building" class="place-building" required></select></label>
+                <label>Venue or room<select id="notice-location" class="place-venue" required></select></label></div>
+              <p class="place-note" hidden></p>
+            </div>
+            <label>Last seen (UTC+8)<input id="notice-at" type="datetime-local" step="60" required></label>
+            <label>Description<textarea id="notice-description" rows="3" maxlength="2000" required placeholder="e.g. Navy pencil case with a key ring"></textarea></label>
+            <p id="notice-error" class="error" role="alert" hidden></p>
+            <div class="record-buttons"><button id="notice-save" class="primary" type="submit">Post lost notice</button>
+              <button id="notice-cancel" class="text-link" type="button" hidden>Cancel edit</button></div>
+          </fieldset>
+        </form>
+        <aside class="results-panel" aria-labelledby="notice-board-title">
+          <div class="section-heading"><h2 id="notice-board-title" tabindex="-1">Notice board</h2>
+            <button type="button" id="notice-refresh" class="text-link">Refresh</button></div>
+          <div class="notice-filter" role="group" aria-label="Choose notices">
+            <button type="button" id="notice-public-tab" aria-pressed="true" aria-controls="notice-board-list">Open notices</button>
+            <button type="button" id="notice-mine-tab" aria-pressed="false" aria-controls="notice-mine-list">My notices</button>
+          </div>
+          <p id="notice-mine-hint" class="record-hint" hidden>Return to this address in the same browser to manage your notices.</p>
+          <p id="notice-status" class="inline-status" role="status"></p>
+          <p id="notice-list-error" class="error" role="alert" hidden></p>
+          <div id="notice-board-list"></div><div id="notice-mine-list" hidden></div>
+        </aside>
+      </div>
+    </section>
+    <section id="urgent-panel" class="urgent-panel" aria-labelledby="urgent-heading" hidden>
+      <div class="urgent-header">
+        <h2 id="urgent-heading"><span class="urgent-symbol" aria-hidden="true">!</span>Urgent search</h2>
+        <p>Requests expire after 30 minutes.</p>
+      </div>
+      <div class="urgent-body">
+        <div class="urgent-modes" role="group" aria-label="Urgent search role">
+          <button id="urgent-requester" type="button" aria-pressed="true" aria-controls="requester-panel">Ask for help</button>
+          <button id="urgent-helper" type="button" aria-pressed="false" aria-controls="helper-panel">Help nearby</button>
+        </div>
+        <div id="requester-panel" class="workspace urgent-workspace">
+          <form id="urgent-form">
+            <fieldset class="form-fields" disabled>
+              <label>Item type<select id="urgent-category" required></select></label>
+              <div class="place-picker" role="group" aria-label="Where helpers should look">
+                <div class="picker-fields"><label>Building or area<select id="urgent-building" class="place-building" required></select></label>
+                  <label>Venue or room<select id="urgent-area" class="place-venue" required></select></label></div>
+                <p class="place-note" hidden></p>
+              </div>
+              <label>Specific spot<input id="urgent-spot" type="text" maxlength="140" required placeholder="e.g. Under the bench by the entrance"></label>
+              <label>Description<textarea id="urgent-description" rows="3" maxlength="280" required placeholder="Describe the item so a helper can recognise it"></textarea></label>
+              <p id="urgent-error" class="error" role="alert" hidden></p>
+              <button id="send-alert" type="submit" class="primary urgent-primary">Send urgent request <span aria-hidden="true">→</span></button>
+            </fieldset>
+          </form>
+          <aside class="urgent-side" aria-labelledby="my-requests-title">
+            <h3 id="my-requests-title">Your requests in this tab</h3>
+            <p id="urgent-status" class="inline-status" role="status"></p>
+            <div id="my-requests"></div>
+          </aside>
+        </div>
+        <div id="helper-panel" class="workspace urgent-workspace" hidden>
+          <form id="receive-form">
+            <fieldset class="form-fields" disabled>
+              <div class="place-picker" role="group" aria-label="Your current campus location">
+                <div class="picker-fields"><label>Building or area<select id="helper-building" class="place-building" required></select></label>
+                  <label>Venue or room<select id="helper-area" class="place-venue" required></select></label></div>
+                <p class="place-note" hidden></p>
+              </div>
+              <p class="hint help-hint">Get requests from your floor or your selected outdoor landmark.</p>
+              <button type="button" class="primary urgent-primary" id="toggle-receiving" aria-pressed="false" disabled>Receive nearby requests</button>
+            </fieldset>
+          </form>
+          <aside class="urgent-side" aria-labelledby="nearby-title">
+            <h3 id="nearby-title">Nearby requests</h3>
+            <p id="nearby-status" class="inline-status" role="status">Receiving is off.</p>
+            <div id="nearby-list"></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+  <template id="door-field-template">
+    <div class="door-field" hidden>
+      <label>Door number<input class="door-number" type="text" maxlength="24" autocapitalize="characters" autocomplete="off" spellcheck="false" disabled></label>
+      <p class="door-error" hidden></p>
+    </div>
+  </template>
+  <template id="stop-template">
+    <fieldset class="stop">
+      <legend>Stop <span class="stop-number"></span></legend>
+      <div class="place-picker" role="group" aria-label="Route stop">
+        <div class="picker-fields"><label>Building or area<select class="place-building" required></select></label>
+          <label>Venue or room<select class="place-venue visit-location" required></select></label></div>
+        <p class="place-note" hidden></p>
+      </div>
+      <button type="button" class="remove text-link" hidden>Remove stop</button>
+      <div class="field-pair times"><label>Arrival (UTC+8)<input type="datetime-local" step="60" class="visit-start" required></label><label>Departure (UTC+8)<input type="datetime-local" step="60" class="visit-end" required></label></div>
+    </fieldset>
+  </template>
+</body>
+</html>

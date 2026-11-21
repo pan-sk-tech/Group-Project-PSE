@@ -1,22 +1,22 @@
 # Prototype
 
-Place the runnable prototype source in this folder.
+This folder contains the complete Windows 10/11 x64 portable edition of the Campus Lost & Found prototype.
 
-## Expected source files
+## Contents
 
-- Python server and launcher modules
-- `index.html`, `app.js` and `styles.css`
-- Campus-location and matching modules
-- Required image assets and their licence information
-- A Windows launcher or equivalent terminal command
+- `app/` — Python server, HTML, CSS, JavaScript, campus data, diagrams and test notes
+- `runtime/` — bundled portable Python runtime for Windows x64
+- `Start.cmd` — Windows launcher
+- `How to open.txt` — English and Chinese launch instructions
 
-## Recommended source-edition launch process
+## Run on Windows
 
-1. Install Python 3.9 or later.
-2. Open a terminal in this folder.
-3. Run `py -3 launch.py` on Windows or `python3 launch.py` on macOS/Linux.
-4. Keep the terminal open while using the prototype.
-5. Press `Ctrl+C` to stop the server.
+1. Download or clone the repository.
+2. Open `05-Final/Prototype/`.
+3. Double-click `Start.cmd`.
+4. Keep the command window open while using the prototype.
+5. If the browser does not open automatically, copy the address shown after **On this computer** into a browser.
+6. Press `Ctrl+C` in the command window to stop the server.
 
-The original source files were not present in the local workspace when this repository structure was prepared, so no incomplete or reconstructed prototype code has been committed.
+No separate Python installation is required for this portable Windows edition.
 

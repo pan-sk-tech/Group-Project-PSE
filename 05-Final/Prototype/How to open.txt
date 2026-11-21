@@ -1,0 +1,11 @@
+﻿Campus Lost & Found | Windows 10/11 x64
+
+1. Save the ZIP and choose Extract All. In the extracted Campus Lost and Found folder, double-click Start.cmd. The included Python runtime opens the app in your browser.
+2. If a browser does not open, copy the “On this computer” address from the command window.
+3. Keep that window open during the demo. Press Ctrl+C in the window to stop the server.
+4. See app/Start here - 打开方法.txt for the four workflows and group demo steps. In this edition, the editable diagrams are in app/diagrams/Campus Lost and Found.drawio.
+
+1. 保存压缩包，右键选择“全部解压缩”。打开解压后的 Campus Lost and Found 文件夹，双击 Start.cmd。包内已含 Python 运行环境。
+2. 如果浏览器没有自动打开，复制命令窗口中 “On this computer” 后面的网址并在浏览器打开。
+3. 演示时保持命令窗口开着。结束后在里面按 Ctrl+C。
+4. 四个操作流程及多人演示方法见 app/Start here - 打开方法.txt，四张可编辑图在 app/diagrams/Campus Lost and Found.drawio。
