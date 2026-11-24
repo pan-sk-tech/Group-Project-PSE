@@ -1,14 +1,11 @@
 # Requirements
 
-This folder is reserved for the requirements specification and use-case evidence.
+This folder contains the requirements baseline used by the design, implementation and testing work.
 
-## Materials
+## Contents
 
-- Functional requirements 
-- Non-functional requirements NFR-01 to NFR-04
-- UML use-case diagram
-- Detailed use-case descriptions
-- Requirement assumptions and constraints
-
-
+- [Requirements specification](Requirements_Specification.md)
+- [Detailed use-case descriptions](Use_Case_Descriptions.md)
+- [UML use-case diagram](Evidence/Use-Case-Diagram.png)
+- [Requirements Traceability Matrix](../04-Test/RTM.md)
 
