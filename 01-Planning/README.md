@@ -1,22 +1,22 @@
 ## Five-person team roles and responsibilities
 
--Peng Zihao (Group Leader)
+- Peng Zihao (Group Leader)
 0392878
 System Design and Diagrams
 Coordinates team progress; prepares and presents the four diagrams covering UML use cases, system architecture, item-matching logic, and the urgent search workflow.
--Fu Jiacheng
+- Fu Jiacheng
 0376148
 Project Topic, Objectives & Report Compilation
 Introduces the campus lost-and-found problem and project objectives; authors report sections and compiles/organises the final group report.
--Ayman Ahmed
+- Ayman Ahmed
 0388002
 Requirements and Development Process
 Explains the needs of item owners, finders, and nearby volunteers; describes how the team organised work and tracked version changes.
--Zhang Fengrui
+- Zhang Fengrui
 0376811
 Prototype Development and Live Demonstration
 Builds the working prototype and demonstrates how students search for lost items and request help from nearby volunteers.
--Bu Zihang
+- Bu Zihang
 0373619
 Testing and Quality Assurance
 Runs the test cases and compares expected and actual results; demonstrates how changing a volunteer’s location affects which urgent requests they see.
