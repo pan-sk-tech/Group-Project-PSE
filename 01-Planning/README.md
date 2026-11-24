@@ -23,10 +23,10 @@ Runs the test cases and compares expected and actual results; demonstrates how c
 
 ## User stories
 
-US-01	Finder	As a Finder, I want to report an item I found, so that its owner can locate and collect it.
-US-02	Item Owner	As an Item Owner, I want to search using my visited locations and times, so that I can identify possible matches for my missing item.	
-US-03	Item Owner	As an Item Owner, I want to publish a lost notice, so that other students can help identify my missing item.	
-US-04	Item Owner	As an Item Owner, I want to send an urgent search request, so that nearby students can help check the location.	
-US-05	Volunteer Helper	As a Volunteer Helper, I want to view urgent requests near my current location, so that I can assist students nearby.	
+- US-01	Finder	As a Finder, I want to report an item I found, so that its owner can locate and collect it.
+- US-02	Item Owner	As an Item Owner, I want to search using my visited locations and times, so that I can identify possible matches for my missing item.	
+- US-03	Item Owner	As an Item Owner, I want to publish a lost notice, so that other students can help identify my missing item.	
+- US-04	Item Owner	As an Item Owner, I want to send an urgent search request, so that nearby students can help check the location.	
+- US-05	Volunteer Helper	As a Volunteer Helper, I want to view urgent requests near my current location, so that I can assist students nearby.	
 
 
