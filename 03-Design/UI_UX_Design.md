@@ -21,5 +21,5 @@ The interface uses one responsive page for desktop and mobile. Its navigation fo
 ![Urgent search screen](Evidence/Urgent-Search-01.png)
 ![Volunteer reception screen](Evidence/Urgent-Search-02.png)
 
-The original Figma design is listed in [Supporting Evidence](../05-Final/Supporting_Evidence.md).
+
 
